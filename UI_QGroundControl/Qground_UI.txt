@@ -1,0 +1,25 @@
+
+QGround Control ile entegreli çalışacak bir arayüz gerekli. Bu arayüz Python dili üzerinden yapılacaktır. tkinter kütüphanesi veya PyQt5 kullanılabilir.
+Arayüz kesinlikle QGroundControl yazılımından veri alabilmelidir.
+
+Arayüzün sahip olması gereken özellikleri:
+
+- QGround Control'den şu anda bulunduğu konum bilgisini alabilmeli (Koordinatlarını)
+
+- Aldığı konum koordinatlarından (X,Y,Z eksenlerinde) kaç metre ileri veya geri gideceğinin (X,Y,Z eksenleri için her eksen için metre cinsinden parametre alınacaktır.) alınması
+
+- Başlangıç konumunu veya alınan son konum parametreleri arasını çap kabul eden bir daire çizmesi (metre cinsinden)
+
+- Çizilen bu dairenin taranması (Alan cinsinden)
+
+
+
+Daha sonradan yapılması istenen 
+
+- Alan taranırken alanda ateş bulunması durumunda drone'un ateş algılanan koordinatları doğru şekilde tespit etmesi
+
+- Ateş bulunduğu tespit edilen koordinatlara doğru drone'un yönlendirilmesi
+
+- Koordinatlara ulaştığında anlık görüntü, fotoğraf, E-mail, GPRS vb çeşitli uyarıcı sistemlerle yetkililere ulaştırılması 
+
+- Ateş bulunan koordinatlara giden drone'un gerekli onay geldiğinde söndürme işlemini yapması
